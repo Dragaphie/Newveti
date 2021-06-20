@@ -50,7 +50,7 @@
                     </li>
 
                      <li class="nav-item active">
-                        <a href="nos-ateliers.html" class="nav-link" title="Aller sur la page Ateliers">Nos Ateliers
+                        <a href="nos-ateliers.html" class="nav-link text-info" title="Aller sur la page Ateliers">Nos Ateliers
                         </a>
                     </li>
 
@@ -76,18 +76,18 @@
             </div>
 
            <div class="row justify-content-center mp-5">
-            <form method="post" action="">
+            <form method="post" action="nos-ateliers.html">
                <div class="mb-3">
                   <label for="name" class="form-label">Nom</label>
-                     <input type="text" class="form-control" id="name" name="name" placeholder="Votre Nom :" aria-describedby="nameHelp">             
+                     <input type="text" class="form-control" id="name" name="name" placeholder="Votre Nom :" >             
                </div>
                <div class="mb-3">
-                  <label for="first-name" class="form-label">Prénom</label>
-                     <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Votre Prénom:" aria-describedby="prenomHelp">    
+                  <label for="prenom" class="form-label">Prénom</label>
+                     <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Votre Prénom:">    
                </div>
                <div class="mb-3">
                   <label for="email" class="form-label">Email</label>
-                     <input type="email" class="form-control" id="email" name="email" placeholder="Votre email:" aria-describedby="emailHelp">      
+                     <input type="email" class="form-control" id="email" name="email" placeholder="Votre email:">      
                </div>
                <div class="mb-3">
                   <label for="tel" class="form-label">Tél</label>
@@ -99,7 +99,7 @@
                      <input type="checkbox" id="couture-mercredi" class="form-check-input" name="couture-mercredi" ><label for="couture-mercredi">Couture Mercredi de 14H00 à 18H00 </label>
                </div> 
                <div class="mb-2 form-check">
-                     <input type="checkbox" id="couture-jeudi " class="form-check-input" name="couture-jeudi" ><label for="couture-jeudi"> Couture Jeudi de 18H00 à 20H00 </label>
+                     <input type="checkbox" id="couture-jeudi" class="form-check-input" name="couture-jeudi" ><label for="couture-jeudi"> Couture Jeudi de 18H00 à 20H00 </label>
                </div>      
 
                <div class="mb-2 form-check">
@@ -107,7 +107,7 @@
                </div>
 
                <div class="mb-2 form-check"> 
-                     <input type="checkbox" id="broderie-mercredi"class="form-check-input" name="broderie-mercredi" ><label for="broderie-mercredi"> Broderie Mercredi de 13H30 à 17H30 </label>
+                     <input type="checkbox" id="broderie-mercredi" class="form-check-input" name="broderie-mercredi" ><label for="broderie-mercredi"> Broderie Mercredi de 13H30 à 17H30 </label>
                </div>
 
                <div class="mb-2 form-check">
@@ -121,13 +121,18 @@
                <div class="mb-2 form-check">
                      <input type="checkbox" id="tricot-jeudi" class="form-check-input" name="tricot-jeudi" ><label for="tricot-jeudi"> Tricot Jeudi de 18H00 à 20H00 </label>
                </div>
-
-               </a><input type="submit" name="incrit" value="inscriver-vous">
+                 <input type="submit" name="incrit" value="inscriver-vous">
         
              </div>                         
             </form>
            </div>          
         </main>
+
+ <!--arrow to go to the top-->
+        <div class="row justify-content-end mr-3">
+         <a id="gotop" href="#"><img src="images/fleche.png" alt="retour haut de page" width="40" height="40"></a>
+        </div>
+
          <footer class="container-fluid">
             <div class=" end row justify-content-center mt-5">
               <div class="col-12 col-lg-6 align-self-center text-center pt-2">
